@@ -3,7 +3,7 @@
 ## Overview
 Mixed Messages is a Codecademy project that should output a random message each time the program is run.
 
-## Goal (prior to coding)
+## Goal
 + The app should output a random message composed of at least three seperate phrases
 + The program will be run from the terminal (I have not yet learned how to integrate HTML and JS together)
 + Messages will be insults to the user (inspired by the Maurader's Map in Harry Potter), encouraging them to mind their own business

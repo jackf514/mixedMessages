@@ -19,5 +19,8 @@ function createMessage(exhortAdj, bodyAdj, bodyParts) { //put together string fr
 // Put message together
 function outputMessage(chooseParts, createMessage) {
     let parts = chooseParts();
-    console.log(createMessage(parts[1], parts[2], parts[3]));
+    console.log(createMessage(parts[0], parts[1], parts[2]));
 }
+
+// Run output function
+outputMessage(chooseParts, createMessage);
