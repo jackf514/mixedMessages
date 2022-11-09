@@ -16,3 +16,8 @@ function createMessage(exhortAdj, bodyAdj, bodyParts) { //put together string fr
     return `We ${exhortAdj} you to keep your ${bodyAdj} ${bodyParts} out of other people's business`;
 };
 
+// Put message together
+function outputMessage(chooseParts, createMessage) {
+    let parts = chooseParts();
+    console.log(createMessage(parts[1], parts[2], parts[3]));
+}
